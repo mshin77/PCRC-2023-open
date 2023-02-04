@@ -71,7 +71,7 @@ knitr::include_graphics("../figures/topic_term_plot.png")
 
 Figure \@ref(fig:figure4) demonstrates the semantic mapping of co-occurring words with greater than or equal to 100 co-occurrence frequency (38 nodes and 686 edges). The commonly co-occurring words show that TTS-related technical terms were central to the networks. 
 
-```{r figure4, out.width='80%', fig.cap='Semantic Mapping of Co-Occurring Words', fig.width=8, fig.height=6}
+```{r figure4, out.width='80%', fig.cap='Semantic Mapping of Co-Occurring Words', fig.width=7, fig.height=6}
 knitr::include_graphics("../figures/network.png")
 ```
 
@@ -89,3 +89,5 @@ library(cowplot)
 library(ggplot2)
 ggdraw() + draw_image('../figures/QR.png', scale = 1.2)
 ```
+
+https://github.com/mshin77/PCRC-2023-open
